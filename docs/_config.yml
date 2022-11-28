@@ -1,0 +1,8 @@
+#Jekyll configuration
+name: Vault Hunters 3rd Edition - SyntheeR's guides
+url: "https://vault-hunters.sth.ovh/"
+markdown: kramdown
+theme: midnight
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
