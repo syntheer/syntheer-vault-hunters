@@ -1,3 +1,5 @@
+#Mod Boxes Drops
+
 | Name                   | id                                            | amountMin | amountMax | weight |
 | ---------------------- | --------------------------------------------- | --------- | --------- | ------ |
 | None                   | minecraft:golden_apple                        | 1         | 1         | 1      |
