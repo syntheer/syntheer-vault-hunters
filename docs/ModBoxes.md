@@ -1,4 +1,4 @@
-#Mod Boxes Drops
+# Mod Boxes Drops
 
 | Name                   | id                                            | amountMin | amountMax | weight |
 | ---------------------- | --------------------------------------------- | --------- | --------- | ------ |
