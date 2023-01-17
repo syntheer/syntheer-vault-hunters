@@ -1,5 +1,7 @@
 # Mod Boxes Drops
 
+## Update 5
+
 | Name                   | id                                            | amountMin | amountMax | weight |
 | ---------------------- | --------------------------------------------- | --------- | --------- | ------ |
 | None                   | minecraft:golden_apple                        | 1         | 1         | 1      |
@@ -21,20 +23,24 @@
 | Drawers                | storagedrawers:void_upgrade                   | 1         | 1         | 4      |
 | Mekanism QIO           | mekanism:pellet_polonium                      | 1         | 1         | 3      |
 | Mekanism QIO           | mekanism:lead_ingot                           | 8         | 32        | 30     |
-| Refined Storage        | refinedstorage:1k_storage_disk                | 1         | 1         | 100    |
-| Refined Storage        | refinedstorage:4k_storage_disk                | 1         | 1         | 25     |
-| Refined Storage        | refinedstorage:16k_storage_disk               | 1         | 1         | 10     |
-| Refined Storage        | refinedstorage:64k_storage_disk               | 1         | 1         | 2      |
-| Refined Storage        | refinedstorage:grid                           | 1         | 1         | 10     |
-| Refined Storage        | refinedstorage:disk_drive                     | 1         | 1         | 8      |
-| Refined Storage        | refinedstorage:machine_casing                 | 1         | 1         | 100    |
-| Refined Storage        | refinedstorage:exporter                       | 1         | 1         | 100    |
-| Refined Storage        | refinedstorage:importer                       | 1         | 1         | 100    |
-| Refined Storage        | refinedstorage:speed_upgrade                  | 1         | 1         | 120    |
-| Refined Storage        | refinedstorage:stack_upgrade                  | 1         | 1         | 120    |
+| Mekanism QIO           | mekanism:qio_drive_base                       | 1         | 1         | 2      |
+| Mekanism QIO           | mekanism:qio_drive_array                      | 1         | 1         | 1      |
+| Refined Storage        | refinedstorage:1k_storage_disk                | 1         | 1         | 20     |
+| Refined Storage        | refinedstorage:4k_storage_disk                | 1         | 1         | 4      |
+| Refined Storage        | refinedstorage:16k_storage_disk               | 1         | 1         | 2      |
+| Refined Storage        | refinedstorage:64k_storage_disk               | 1         | 1         | 1      |
+| Refined Storage        | refinedstorage:grid                           | 1         | 1         | 2      |
+| Refined Storage        | refinedstorage:disk_drive                     | 1         | 1         | 2      |
+| Refined Storage        | refinedstorage:machine_casing                 | 1         | 1         | 10     |
+| Refined Storage        | refinedstorage:exporter                       | 1         | 1         | 40     |
+| Refined Storage        | refinedstorage:importer                       | 1         | 1         | 40     |
+| Refined Storage        | refinedstorage:speed_upgrade                  | 1         | 1         | 40     |
+| Refined Storage        | refinedstorage:stack_upgrade                  | 1         | 1         | 20     |
+| Refined Storage        | refinedstorage:quartz_enriched_iron           | 1         | 4         | 120    |
+| Refined Storage        | refinedstorage:cable                          | 1         | 4         | 120    |
 | Refined Storage        | refinedstorage:crafting_grid                  | 1         | 1         | 1      |
-| Refined Storage        | refinedstorage:external_storage               | 1         | 1         | 80     |
-| Refined Storage        | refinedstorage:controller                     | 1         | 1         | 4      |
+| Refined Storage        | refinedstorage:external_storage               | 1         | 1         | 20     |
+| Refined Storage        | refinedstorage:controller                     | 1         | 1         | 2      |
 | Applied Energistics    | ae2:drive                                     | 1         | 1         | 8      |
 | Applied Energistics    | ae2:1k_storage_cell                           | 1         | 1         | 100    |
 | Applied Energistics    | ae2:4k_storage_cell                           | 1         | 1         | 25     |
@@ -94,9 +100,9 @@
 | Mekanism Generators    | mekanismgenerators:advanced_solar_generator   | 1         | 1         | 2      |
 | Mekanism Generators    | mekanismgenerators:heat_generator             | 1         | 1         | 25     |
 | Dark Utilities         | darkutils:blank_plate                         | 1         | 8         | 128    |
-| Dark Utilities         | darkutils:rune_fire                           | 1         | 8         | 128    |
-| Dark Utilities         | darkutils:rune_poison                         | 1         | 8         | 128    |
-| Dark Utilities         | darkutils:rune_weakness                       | 1         | 8         | 128    |
+| Dark Utilities         | darkutils:flame_plate                         | 1         | 8         | 128    |
+| Dark Utilities         | darkutils:poison_plate                        | 1         | 8         | 128    |
+| Dark Utilities         | darkutils:weakness_plate                      | 1         | 8         | 128    |
 | Dark Utilities         | darkutils:vector_plate                        | 1         | 4         | 64     |
 | Dark Utilities         | darkutils:vector_plate_fast                   | 1         | 2         | 32     |
 | Dark Utilities         | darkutils:vector_plate_extreme                | 1         | 1         | 16     |
@@ -124,8 +130,6 @@
 | Mekanism               | mekanism:advanced_energy_cube                 | 1         | 1         | 2      |
 | Mekanism               | mekanism:basic_universal_cable                | 16        | 32        | 10     |
 | Mekanism               | mekanism:advanced_universal_cable             | 16        | 32        | 6      |
-| Mekanism               | mekanism:qio_drive_base                       | 1         | 1         | 2      |
-| Mekanism               | mekanism:qio_drive_array                      | 1         | 1         | 1      |
 | Botania                | botania:manasteel_ingot                       | 2         | 8         | 24     |
 | Botania                | botania:terrasteel_nugget                     | 1         | 4         | 8      |
 | Botania                | botania:mana_diamond                          | 1         | 4         | 20     |
@@ -138,12 +142,9 @@
 | Botania                | botania:rune_autumn                           | 1         | 1         | 10     |
 | Botania                | botania:rune_winter                           | 1         | 1         | 10     |
 | Botania                | botania:rune_mana                             | 1         | 1         | 10     |
-| Botania                | botania:laputa_shard                          | 1         | 1         | 4      |
 | Botania                | botania:black_lotus                           | 8         | 16        | 24     |
 | Botania                | botania:blacker_lotus                         | 8         | 16        | 12     |
 | Botania                | botania:mana_spreader                         | 1         | 1         | 16     |
-| Botania                | botania:elven_spreader                        | 1         | 1         | 8      |
-| Botania                | botania:gaia_spreader                         | 1         | 1         | 2      |
 | Botania                | botania:mana_pearl                            | 1         | 4         | 20     |
 | Easy Villagers         | easy_villagers:villager                       | 1         | 1         | 40     |
 | Easy Villagers         | easy_villagers:trader                         | 1         | 1         | 10     |
@@ -151,6 +152,20 @@
 | Easy Villagers         | easy_villagers:breeder                        | 1         | 1         | 16     |
 | Easy Villagers         | easy_villagers:converter                      | 1         | 1         | 4      |
 | Easy Villagers         | easy_villagers:iron_farm                      | 1         | 1         | 1      |
+| Cagerium               | cagerium:binding_wood_plate                   | 1         | 1         | 4      |
+| Cagerium               | cagerium:ominous_skull                        | 1         | 1         | 1      |
+| Cagerium               | cagerium:skeleton_key                         | 1         | 1         | 2      |
+| Cagerium               | minecraft:porkchop                            | 1         | 1         | 36     |
+| Cagerium               | the_vault:mystery_egg                         | 1         | 1         | 6      |
+| SNAD                   | snad:snad                                     | 1         | 1         | 1      |
+| SNAD                   | snad:red_snad                                 | 1         | 1         | 1      |
+| SNAD                   | snad:suol_snad                                | 1         | 1         | 1      |
+| SNAD                   | compressium:sand_1                            | 1         | 1         | 6      |
+| SNAD                   | compressium:redsand_1                         | 1         | 1         | 4      |
+| SNAD                   | compressium:soulsand_1                        | 1         | 1         | 4      |
+| Waystones              | waystones:warp_dust                           | 2         | 6         | 6      |
+| Waystones              | waystones:waystone                            | 1         | 1         | 1      |
+| Botany Pots            | botanypots:terracotta_botany_pot              | 1         | 1         | 2      |
 | Mob Spawners           | minecraft:zombie_spawn_egg                    | 1         | 8         | 32     |
 | Mob Spawners           | minecraft:spider_spawn_egg                    | 1         | 8         | 32     |
 | Mob Spawners           | minecraft:skeleton_spawn_egg                  | 1         | 8         | 32     |
